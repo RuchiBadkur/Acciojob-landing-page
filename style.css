@@ -8,7 +8,10 @@
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
 }
-.navbar-container, #hero-section, .courses, .companies, .testimonials{
+
+
+
+.navbar-container, #hero-section, #courses, .companies, #testimonials{
     width: 84vw;
     margin: auto;
 }
@@ -258,7 +261,7 @@ li:hover{
     color: #2f80ed;
 }
 
-.courses{
+#courses{
     width: 100vw;
     margin: auto;
     background: #ECF8FF;
@@ -395,7 +398,6 @@ li:hover{
 
 .testimonials-item:hover{
     box-shadow: 5px 9px 40px 10px #39194114;
-
 }
 
 footer{
@@ -406,7 +408,7 @@ footer{
 /* media queries */
 /* Medium screens */
 @media (min-width: 768px) and (max-width: 1199px) {
-    .navbar-container, #hero-section, .courses, .companies, .testimonials{
+    .navbar-container, #hero-section, #courses, .companies, #testimonials{
         width: 100vw;
         margin: auto;
     }
@@ -444,7 +446,7 @@ footer{
 
 /* Small screens */
 @media (max-width: 767px) {
-    .navbar-container, #hero-section, .courses, .companies, .testimonials{
+    .navbar-container, #hero-section, #courses, .companies, #testimonials{
         width: 100vw;
         margin: auto;
     }
